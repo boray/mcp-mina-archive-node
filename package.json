@@ -1,0 +1,40 @@
+{
+  "name": "mcp-mina-archive-node",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "github:boray/mcp-mina-archive-node",
+  "bin": {
+    "mcp-graphql": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@graphql-tools/schema": "^10.0.21",
+    "@standard-schema/spec": "^1.0.0",
+    "@types/bun": "latest",
+    "@types/yargs": "17.0.33",
+    "graphql-yoga": "^5.13.1",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.6.1",
+    "graphql": "^16.10.0",
+    "yargs": "17.7.2",
+    "zod": "3.24.2",
+    "zod-to-json-schema": "3.24.3"
+  },
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mina",
+    "archive",
+    "node"
+  ],
+  "author": "boray",
+  "license": "ISC"
+}
