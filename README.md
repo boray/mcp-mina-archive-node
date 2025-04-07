@@ -14,7 +14,7 @@ The MCP server acts as a bridge between AI applications and the Mina blockchain 
 
 ### Intalling via Smithery
 To install the MCP to Claude via Smithery:
-` npx -y @smithery/cli install mcp-mina-archive-node --client claude`
+```npx -y @smithery/cli install mcp-mina-archive-node --client claude```
 
 ### Installing Manually
 To manually install to Claude:
