@@ -24,7 +24,7 @@ To manually install to Claude:
     "mcpServers": {
         "mcp-graphql": {
             "command": "npx",
-            "args": ["mcp-mina-archive-node""]
+            "args": ["mcp-mina-archive-node"]
         }
     }
 }
