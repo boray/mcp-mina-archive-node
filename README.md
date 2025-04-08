@@ -6,8 +6,8 @@ This project implements a Model Context Protocol (MCP) server that provides acce
 
 The MCP server acts as a bridge between AI applications and the Mina blockchain data. It exposes tools that allow clients to:
 
-- Query blocks by height or state hash
-- Query transactions by hash
+- Query events with optional filters
+- Query actions with optional filters
 - Get network state information
 
 ## Installation
